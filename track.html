@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracing Order</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="track.css">
+</head>
+<body>
+    <div class="container">
+        <article class="card">
+            <header class="card-header"> My Orders / Tracking </header>
+            <div class="card-body">
+                <h6>Order ID: OD45345345435</h6>
+                <article class="card">
+                    <div class="card-body row">
+                        <div class="col"> <strong>Estimated Delivery time:</strong> <br>20 August 2021 </div>
+                        <div class="col"> <strong>Shipping BY:</strong> <br> MR-Mart, | <i class="fa fa-phone"></i> +1598675986 </div>
+                        <div class="col"> <strong>Status:</strong> <br> Picked by the courier </div>
+                        <div class="col"> <strong>Tracking #:</strong> <br> BD045903594059 </div>
+                    </div>
+                </article>
+                <div class="track">
+                    <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
+                    <div class="step"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> Picked by courier</span> </div>
+                    <div class="step"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> On the way </span> </div>
+                    <div class="step"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Ready for pickup</span> </div>
+                </div>
+               
+                <hr> <a href="after-signin.html" class="btn btn-warning" data-abc="true"> <i class="fa fa-chevron-left"></i> Back to shopping</a>
+            </div>
+        </article>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+</body>
+</html>
